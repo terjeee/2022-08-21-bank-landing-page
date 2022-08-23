@@ -1,0 +1,29 @@
+:root {
+  --primary-blue: hsl(233, 26%, 24%);
+  --primary-green: hsl(136, 65%, 51%);
+  --primary-cyan: hsl(192, 70%, 51%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(0, 0%, 98%);
+  --clr-light-gray-blue: hsl(220, 16%, 96%);
+  --clr-gray-blue: hsl(233, 8%, 62%);
+  --weight-light: 300;
+  --weight-medium: 400;
+  --weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1.8rem;
+}
