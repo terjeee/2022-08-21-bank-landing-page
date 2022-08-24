@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.menu__item {
+  font-size: 1.6rem;
+  color: var(--clr-gray-blue);
+}
+
+@media screen and (min-width: 768px) {
+  .menu__item:hover {
+    color: orange;
+  }
+}
