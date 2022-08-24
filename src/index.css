@@ -6,9 +6,12 @@
   --clr-light-gray: hsl(0, 0%, 98%);
   --clr-light-gray-blue: hsl(220, 16%, 96%);
   --clr-gray-blue: hsl(233, 8%, 62%);
+
   --weight-light: 300;
   --weight-medium: 400;
   --weight-bold: 700;
+
+  --border-radius: 1rem;
 }
 
 *,
@@ -24,6 +27,27 @@ html {
 }
 
 body {
+  background-color: black;
   font-family: 'Public Sans', sans-serif;
   font-size: 1.8rem;
+}
+
+img {
+  display: block;
+}
+
+button {
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+li {
+  list-style: none;
 }
