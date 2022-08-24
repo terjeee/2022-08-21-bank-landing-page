@@ -9,7 +9,7 @@ import css from './NavBar.module.css';
 
 function NavBar() {
   return (
-    <nav className={css.navBar}>
+    <nav className={css.NavBar}>
       <div>
         <img src={BankLogo} alt='logo' />
       </div>
@@ -17,7 +17,7 @@ function NavBar() {
         <MenuMobile />
         <MenuDesktop />
       </div>
-      <div>
+      <div className={css.ButtonInvite}>
         <ButtonInvite />
       </div>
     </nav>

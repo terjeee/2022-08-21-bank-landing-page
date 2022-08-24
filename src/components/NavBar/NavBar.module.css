@@ -1,4 +1,4 @@
-.navBar {
+.NavBar {
   /* z-index: 100; */
   position: fixed;
   top: 0;
@@ -11,4 +11,10 @@
   align-items: center;
   background-color: var(--clr-white);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+@media screen and (max-width: 768px) {
+  .NavBar .ButtonInvite {
+    display: none;
+  }
 }
