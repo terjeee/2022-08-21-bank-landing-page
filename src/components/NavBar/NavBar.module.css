@@ -1,0 +1,14 @@
+.navBar {
+  /* z-index: 100; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 3rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  background-color: var(--clr-white);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
