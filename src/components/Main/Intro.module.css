@@ -9,3 +9,31 @@
   transform: translateY(-7rem);
   margin-bottom: -7rem;
 }
+
+.intro .div02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 4rem 2.5rem 8rem 2.5rem;
+  text-align: center;
+}
+
+.intro .div02 h1 {
+  color: var(--dark-blue);
+  font-size: 3.5rem;
+  font-weight: var(--weight-medium);
+}
+.intro .div02 p {
+  color: var(--clr-gray-blue);
+  font-size: 1.8rem;
+  font-weight: var(--weight-light);
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 768px) {
+}
