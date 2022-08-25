@@ -1,6 +1,6 @@
-import ButtonInvite from '../UI/ButtonInvite';
+import ButtonInvite from '../../UI/ButtonInvite';
 
-import Mockups from '../../assets/images/image-mockups.png';
+import Mockups from '../../../assets/images/image-mockups.png';
 import css from './Intro.module.css';
 
 function Intro() {

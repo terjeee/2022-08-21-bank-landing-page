@@ -1,9 +1,9 @@
 // import { Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar/NavBar';
-import Intro from './components/Main/Intro.jsx';
-import WhyUs from './components/Main/WhyUs';
-import Articles from './components/Main/Articles';
+import Intro from './components/Main/Intro/Intro';
+import WhyUs from './components/Main/WhyUs/WhyUs';
+import Articles from './components/Main/Articles/Articles';
 
 function App() {
   return (

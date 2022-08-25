@@ -1,7 +1,7 @@
-import OnlineBanking from '../../assets/images/icon-online.svg';
-import Budgeting from '../../assets/images/icon-budgeting.svg';
-import Onboarding from '../../assets/images/icon-onboarding.svg';
-import OpenAPI from '../../assets/images/icon-api.svg';
+import OnlineBanking from '../../../assets/images/icon-online.svg';
+import Budgeting from '../../../assets/images/icon-budgeting.svg';
+import Onboarding from '../../../assets/images/icon-onboarding.svg';
+import OpenAPI from '../../../assets/images/icon-api.svg';
 
 import css from './WhyUs.module.css';
 
