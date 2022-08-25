@@ -1,0 +1,11 @@
+.intro .div01 {
+  background-image: url('../../assets/images/bg-intro-mobile.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro img {
+  width: 100%;
+  transform: translateY(-7rem);
+  margin-bottom: -7rem;
+}
