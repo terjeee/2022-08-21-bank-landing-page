@@ -3,6 +3,7 @@
 import NavBar from './components/NavBar/NavBar';
 import Intro from './components/Main/Intro.jsx';
 import WhyUs from './components/Main/WhyUs';
+import Articles from './components/Main/Articles';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Intro />
         <WhyUs />
+        <Articles />
       </main>
     </>
   );
