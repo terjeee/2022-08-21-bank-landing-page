@@ -1,0 +1,43 @@
+.WhyUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--text-gap);
+  background-color: var(--clr-light-gray);
+  padding: 6rem 2.5rem;
+}
+
+.WhyUs div {
+  text-align: center;
+}
+
+.WhyUs div:not(:last-child) {
+  padding-bottom: var(--text-gap);
+}
+
+.WhyUs div img {
+  /* padding: var(--text-gap) 0 0 0; */
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.WhyUs div h3 {
+  font-size: 3.5rem;
+  font-weight: var(--weight-medium);
+  color: var(--dark-blue);
+  padding: var(--text-gap) 0;
+}
+
+.WhyUs div h2 {
+  font-size: 2.5rem;
+  font-weight: var(--weight-medium);
+  color: var(--dark-blue);
+  padding: var(--text-gap) 0;
+}
+
+.WhyUs div p {
+  color: var(--clr-gray-blue);
+  font-size: 1.8rem;
+  font-weight: var(--weight-light);
+}
