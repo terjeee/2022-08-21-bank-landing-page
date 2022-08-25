@@ -3,8 +3,12 @@ import { Link } from 'react-router-dom';
 import css from './ButtonInvite.module.css';
 
 function ButtonInvite() {
+  const handleClick = () => {
+    console.log(':)');
+  };
+
   return (
-    <Link className={css.ButtonInvite} to='/'>
+    <Link className={css.ButtonInvite} onClick={handleClick} to='/'>
       Request Invite
     </Link>
   );
