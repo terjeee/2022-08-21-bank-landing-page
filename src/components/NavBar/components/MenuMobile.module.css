@@ -16,6 +16,8 @@
   flex-direction: column;
   padding: 2rem 0;
   text-align: center;
+  outline-style: none;
+  border-radius: var(--border-radius);
   border: 0.1rem solid black;
 }
 
