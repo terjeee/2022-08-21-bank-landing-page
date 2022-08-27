@@ -48,6 +48,7 @@ a {
   display: inline-block;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 li {
