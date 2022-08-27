@@ -1,0 +1,30 @@
+.logo path {
+  fill: white;
+}
+
+.footer {
+  background-color: var(--dark-blue);
+}
+
+.footer .div01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .div01 div {
+  display: flex;
+}
+
+.footer .div02 {
+  text-align: center;
+}
+
+.footer .div02 div {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: inline-block;
+}

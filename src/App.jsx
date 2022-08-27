@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Intro from './components/Main/Intro/Intro';
 import WhyUs from './components/Main/WhyUs/WhyUs';
 import Articles from './components/Main/Articles/Articles';
+import Footer from './components/Main/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <WhyUs />
         <Articles />
       </main>
+      <Footer />
     </>
   );
 }
