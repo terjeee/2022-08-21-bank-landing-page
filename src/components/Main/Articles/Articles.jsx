@@ -42,8 +42,9 @@ function Articles() {
   return (
     <section className={css.articles}>
       <h3>Latest Articles</h3>
-      {Object.values(DUMMY_DATA).map((article) => (
+      {Object.values(DUMMY_DATA).map((article, index) => (
         <Article
+          key={index}
           author={article.author}
           title={article.title}
           text={article.text}
