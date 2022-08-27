@@ -1,5 +1,6 @@
 .ButtonInvite {
   padding: 1rem 2.5rem;
+  color: white;
   font-weight: var(--weight-bold);
   background: linear-gradient(90deg, var(--lime-green) 1%, var(--bright-cyan));
   border-radius: 2.5rem;
