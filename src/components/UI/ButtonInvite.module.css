@@ -1,8 +1,13 @@
 .ButtonInvite {
   padding: 1rem 2.5rem;
-  color: white;
+  color: white !important;
   font-weight: var(--weight-bold);
-  background: linear-gradient(90deg, var(--lime-green) 1%, var(--bright-cyan));
+  background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
   border-radius: 2.5rem;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
+  transition: background 1000ms ease-in-out;
+}
+
+.ButtonInvite:hover {
+  background: linear-gradient(90deg, var(--lime-green) 25%, var(--bright-cyan));
 }

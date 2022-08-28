@@ -8,7 +8,7 @@ function ButtonInvite() {
   };
 
   return (
-    <Link className={css.ButtonInvite} onClick={handleClick} to='/'>
+    <Link className={css.ButtonInvite} onClick={handleClick} to='/invitation'>
       Request Invite
     </Link>
   );
