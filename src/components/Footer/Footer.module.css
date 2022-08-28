@@ -1,0 +1,65 @@
+.footer {
+  padding: 3.5rem 2.5rem;
+  background-color: var(--dark-blue);
+}
+
+.footer .div01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.footer .div01 .logo path {
+  /* thank you random guy at frontendmentor */
+  filter: contrast(1) invert(1) hue-rotate(190deg) brightness(2);
+}
+
+.footer .div01 div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer .div01 div img {
+  width: 100%;
+}
+
+.footer .div02 {
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.footer .div02 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer .div02 a {
+  color: white;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.footer .div03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.footer .div03 h6 {
+  color: var(--clr-gray-blue);
+  font-weight: var(--weight-light);
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer div .div02 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
