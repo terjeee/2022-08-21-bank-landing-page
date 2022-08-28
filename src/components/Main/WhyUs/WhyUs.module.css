@@ -1,14 +1,32 @@
+.section {
+  padding: 6rem 2.5rem;
+  background-color: var(--clr-light-gray);
+}
+
+.header {
+  max-width: 65rem;
+  margin: auto;
+  padding-bottom: var(--text-gap);
+  text-align: center;
+}
+
+.header h3 {
+  font-size: 3.5rem;
+  font-weight: var(--weight-medium);
+  color: var(--dark-blue);
+  padding: var(--text-gap) 0;
+}
+
+.header p {
+  color: var(--clr-gray-blue);
+  font-size: 1.8rem;
+  font-weight: var(--weight-light);
+}
+
 .WhyUs {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: var(--text-gap);
-  background-color: var(--clr-light-gray);
-  padding: 6rem 2.5rem;
-}
-
-.WhyUs div {
   text-align: center;
 }
 
@@ -17,16 +35,8 @@
 }
 
 .WhyUs div img {
-  /* padding: var(--text-gap) 0 0 0; */
-  padding: 1rem 0;
-  margin: 0 auto;
-}
-
-.WhyUs div h3 {
-  font-size: 3.5rem;
-  font-weight: var(--weight-medium);
-  color: var(--dark-blue);
   padding: var(--text-gap) 0;
+  margin: 0 auto;
 }
 
 .WhyUs div h2 {
@@ -42,8 +52,28 @@
   font-weight: var(--weight-light);
 }
 
+/* @media */
+
 @media screen and (min-width: 600px) {
+  .WhyUs {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
+  .header {
+    text-align: start;
+    padding: 4rem 0;
+    margin: 0 0 0 0;
+  }
+  .WhyUs {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: left;
+  }
+
+  .WhyUs div img {
+    margin: 0 0 0 0;
+  }
 }
