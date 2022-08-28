@@ -1,19 +1,32 @@
-.articles {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+.section {
   padding: 6rem 2.5rem;
 }
 
-.articles > h3 {
-  color: var(--dark-blue);
+.section div > h3 {
+  padding-bottom: 4rem;
   font-size: 3.5rem;
   font-weight: var(--weight-medium);
+  color: var(--dark-blue);
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+.section .articles {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
+  .section .articles {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section .articles {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
 }
