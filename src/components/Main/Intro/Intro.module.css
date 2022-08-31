@@ -33,8 +33,31 @@
   padding-bottom: 0.5rem;
 }
 
-@media screen and (min-width: 600px) {
-}
+@media screen and (min-width: 789px) {
+  .intro {
+    margin-bottom: -12.5rem;
+  }
 
-@media screen and (min-width: 768px) {
+  .intro > div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .intro .div01 {
+    background-image: url("../../../assets/images/bg-intro-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom 10rem;
+  }
+
+  .intro .div01 img {
+    transform: none;
+    margin-bottom: 0;
+  }
+
+  .intro .div02 {
+    width: 50%;
+    align-items: flex-start;
+    text-align: left;
+  }
 }
