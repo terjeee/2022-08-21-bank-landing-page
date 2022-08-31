@@ -17,6 +17,10 @@
 }
 
 @media screen and (min-width: 480px) {
+  .section div > h3 {
+    text-align: start;
+  }
+
   .section .articles {
     display: grid;
     grid-template-columns: repeat(2, auto);
