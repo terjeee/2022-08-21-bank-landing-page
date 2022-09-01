@@ -3,11 +3,11 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 1.25rem 2.5rem;
 
   background-color: var(--clr-white);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
 .NavBar .NavBar__content {
@@ -17,7 +17,8 @@
 }
 
 .NavBar .NavBar__content a {
-  color: var(--gray-blue);
+  color: var(--clr-gray-blue);
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {

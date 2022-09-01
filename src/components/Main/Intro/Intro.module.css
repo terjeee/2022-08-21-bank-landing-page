@@ -17,23 +17,23 @@
   justify-content: center;
   align-items: center;
   gap: var(--text-gap);
-  padding: 4rem 2.5rem 8rem 2.5rem;
+  padding: 4rem 2.5rem 6rem 2.5rem;
   text-align: center;
 }
 
 .intro .div02 h1 {
   color: var(--dark-blue);
-  font-size: 4.25rem;
+  font-size: 3.5rem;
   font-weight: var(--weight-medium);
 }
 .intro .div02 p {
   color: var(--clr-gray-blue);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: var(--weight-light);
   padding-bottom: 0.5rem;
 }
 
-@media screen and (min-width: 789px) {
+@media screen and (min-width: 850px) {
   .intro {
     margin-bottom: -12.5rem;
   }
@@ -48,15 +48,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom 10rem;
+    overflow: hidden;
   }
 
   .intro .div01 img {
-    transform: none;
+    transform: translateX(10rem);
+    margin-right: -10rem;
     margin-bottom: 0;
   }
 
   .intro .div02 {
-    width: 50%;
+    width: 65%;
     align-items: flex-start;
     text-align: left;
   }
