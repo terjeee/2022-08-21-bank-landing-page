@@ -19,8 +19,10 @@
     gap: 1.5rem;
   }
 
-  .menu__item:hover {
-    color: orange;
+  .menu .menu__item:hover {
+    color: var(--gray-blue);
+    border-bottom: 0.25rem var(--lime-green) solid;
+    margin-bottom: -2.3rem;
   }
 }
 
