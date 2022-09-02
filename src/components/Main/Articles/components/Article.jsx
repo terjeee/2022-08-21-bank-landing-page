@@ -6,10 +6,10 @@ function Article(props) {
   const navigate = useNavigate();
   // const {articleId} = useParams()
 
-  const id = props.id;
+  // const id = props.id;
   const author = props.author;
   const title = props.title;
-  const text = props.text;
+  const story = props.text;
   const image = props.image;
   const image_alt = props.image_alt;
 
@@ -21,10 +21,10 @@ function Article(props) {
   return (
     <article className={css.article} onClick={handleNavigate}>
       <img src={image} alt={image_alt} />
-      <div className={css.article__child}>
+      <div className={css.text}>
         <h5 className={css.author}>by {author}</h5>
         <h4 className={css.title}>{title}</h4>
-        <p className={css.text}>{text}</p>
+        <p className={css.story}>{story}</p>
       </div>
     </article>
   );
