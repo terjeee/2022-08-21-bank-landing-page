@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   border-radius: var(--border-radius);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   cursor: pointer;
 }
 
 .article img {
-  max-height: 17.5rem;
+  aspect-ratio: 16 / 9;
+  max-height: 20rem;
   width: 100%;
   object-fit: cover;
-  object-position: bottom;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
 }
 
-.article div {
-  padding: 2rem 1.5rem;
+.article .text {
+  padding: 2rem 1rem;
 }
 
 .article div .author {
@@ -38,9 +38,8 @@
   font-weight: var(--weight-light);
 }
 
-@media screen and (min-width: 480px) {
-  /* endre FLEX (1 per rad" til GRID (2 per rad) */
-}
-
 @media screen and (min-width: 768px) {
+  .article:hover .title {
+    color: var(--lime-green);
+  }
 }
