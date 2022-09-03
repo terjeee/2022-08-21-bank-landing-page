@@ -12,6 +12,10 @@ function MenuHamburger() {
     setShowMenu((prevState) => !prevState);
   };
 
+  const handleCloseMenu = () => {
+    setShowMenu(false);
+  };
+
   const closed = <img className={css.menu} src={HamburgerClosed} alt="menu-closed" />;
   const opened = <img className={css.menu} src={HamburgerOpened} alt="menu-opened" />;
 
@@ -23,27 +27,27 @@ function MenuHamburger() {
           <div>
             <ul>
               <li>
-                <Link className={css.Link} to="/">
+                <Link to="/" className={css.Link} onClick={handleCloseMenu}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link className={css.Link} to="/about">
+                <Link to="/about-us" className={css.Link} onClick={handleCloseMenu}>
                   About
                 </Link>
               </li>
               <li>
-                <Link className={css.Link} to="/contact">
+                <Link to="/contact" className={css.Link} onClick={handleCloseMenu}>
                   Contact
                 </Link>
               </li>
               <li>
-                <Link className={css.Link} to="/blog">
+                <Link to="/blog" className={css.Link} onClick={handleCloseMenu}>
                   Blog
                 </Link>
               </li>
               <li>
-                <Link className={css.Link} to="/careers">
+                <Link to="/careers" className={css.Link} onClick={handleCloseMenu}>
                   Careers
                 </Link>
               </li>
