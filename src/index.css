@@ -64,3 +64,10 @@ a {
 li {
   list-style: none;
 }
+
+/* ROUTE */
+
+.route {
+  padding: 10rem 2.5rem;
+  font-size: 1.6rem;
+}
