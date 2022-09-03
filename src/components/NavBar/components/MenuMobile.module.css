@@ -1,14 +1,17 @@
 .dropdown {
-  z-index: 100;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0));
+  transform: translateY(1.25rem);
 }
 
 .dropdown > div {
-  margin: 5.5rem 4.5rem;
+  margin: 2rem 4.5rem;
   background-color: var(--clr-white);
   border-radius: var(--border-radius);
+  transition: all 0.5s ease-in-out;
 }
 
 .dropdown div ul {
@@ -21,7 +24,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
-.dropdown div ul span:not(:last-child) {
+.dropdown div ul li:not(:last-child) {
   padding-bottom: 2rem;
 }
 
