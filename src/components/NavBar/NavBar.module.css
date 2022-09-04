@@ -15,10 +15,6 @@
   align-items: center;
 }
 
-.NavBar .NavBar__content img {
-  width: 90%;
-}
-
 .NavBar .NavBar__content a {
   font-size: 1.4rem;
 }
