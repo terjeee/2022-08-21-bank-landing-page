@@ -27,27 +27,47 @@ function MenuHamburger() {
           <div>
             <ul>
               <li>
-                <Link to="/" className={css.Link} onClick={handleCloseMenu}>
+                <Link
+                  to="/2022-08-21-bank-landing-page/"
+                  className={css.Link}
+                  onClick={handleCloseMenu}
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className={css.Link} onClick={handleCloseMenu}>
+                <Link
+                  to="/2022-08-21-bank-landing-page/about-us"
+                  className={css.Link}
+                  onClick={handleCloseMenu}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className={css.Link} onClick={handleCloseMenu}>
+                <Link
+                  to="/2022-08-21-bank-landing-page/contact"
+                  className={css.Link}
+                  onClick={handleCloseMenu}
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className={css.Link} onClick={handleCloseMenu}>
+                <Link
+                  to="/2022-08-21-bank-landing-page/blog"
+                  className={css.Link}
+                  onClick={handleCloseMenu}
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className={css.Link} onClick={handleCloseMenu}>
+                <Link
+                  to="/2022-08-21-bank-landing-page/careers"
+                  className={css.Link}
+                  onClick={handleCloseMenu}
+                >
                   Careers
                 </Link>
               </li>

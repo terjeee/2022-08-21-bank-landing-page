@@ -28,7 +28,11 @@
   padding-bottom: 2rem;
 }
 
-@media screen and (min-width: 601px) {
+.dropdown div ul li a {
+  color: var(--dark-blue);
+}
+
+@media screen and (min-width: 480px) {
   .menu {
     display: none;
   }
