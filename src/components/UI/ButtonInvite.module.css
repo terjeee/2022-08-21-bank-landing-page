@@ -4,7 +4,7 @@
   font-weight: var(--weight-bold) !important;
   background: linear-gradient(90deg, var(--lime-green), var(--bright-cyan));
   border-radius: 2.5rem;
-  font-size: 1.15rem !important;
+  font-size: 1.4rem !important;
   transition: background 1000ms ease-in-out;
 }
 

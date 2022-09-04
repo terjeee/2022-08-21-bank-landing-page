@@ -38,14 +38,14 @@ function Footer() {
           </div>
           <div className={css.div02}>
             <div>
-              <Link to="/about-us">About Us</Link>
-              <Link to="/contact">Contact</Link>
-              <Link to="/blog">Blog</Link>
+              <Link to="/2022-08-21-bank-landing-page/about-us">About Us</Link>
+              <Link to="/2022-08-21-bank-landing-page/contact">Contact</Link>
+              <Link to="/2022-08-21-bank-landing-page/blog">Blog</Link>
             </div>
             <div>
-              <Link to="/careers">Careers</Link>
-              <Link to="/support">Support</Link>
-              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="/2022-08-21-bank-landing-page/careers">Careers</Link>
+              <Link to="/2022-08-21-bank-landing-page/support">Support</Link>
+              <Link to="/2022-08-21-bank-landing-page/privacy-policy">Privacy Policy</Link>
             </div>
           </div>
         </div>

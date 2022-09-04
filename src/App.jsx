@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
@@ -18,14 +18,18 @@ function App() {
       <NavBar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about-us" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/support" element={<Support />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/invitation" element={<Invitation />} />
+          <Route path="/2022-08-21-bank-landing-page/" element={<Home />} />
+          <Route path="/2022-08-21-bank-landing-page/about-us" element={<About />} />
+          <Route path="/2022-08-21-bank-landing-page/contact" element={<Contact />} />
+          <Route path="/2022-08-21-bank-landing-page/blog" element={<Blog />} />
+          <Route path="/2022-08-21-bank-landing-page/careers" element={<Careers />} />
+          <Route path="/2022-08-21-bank-landing-page/support" element={<Support />} />
+          <Route
+            path="/2022-08-21-bank-landing-page/privacy-policy"
+            element={<PrivacyPolicy />}
+          />
+          <Route path="/2022-08-21-bank-landing-page/invitation" element={<Invitation />} />
+          <Route path="*" element={<Navigate to="/2022-08-21-bank-landing-page/" replace />} />
         </Routes>
       </main>
       <Footer />
